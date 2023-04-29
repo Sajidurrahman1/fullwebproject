@@ -1,0 +1,176 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+nav{
+	padding: 10px 5%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 10px 10px 15px -10px rgba(0, 0, 0, 0.17);
+}
+nav img{
+	width: 70px;
+	height: auto;
+}
+label{
+	font-size: 22px;
+	color: #F9BB00;
+	font-weight: bold;
+	margin-left: -60px;
+}
+nav ul li{
+	display: inline-block;
+	margin: 0px 10px;
+}
+
+nav ul li a{
+	color: #3f3f3f;
+	font-size: 17px;
+	text-decoration: none;
+	list-style: none;
+}
+.conatact-container{
+	padding: 30px 5%;
+	width: 100%;
+	height: 100vh;
+}
+.contact-title h4{
+	margin: 25px 3px;
+	font-size: 20px;
+	font-family: tahoma;
+	margin-bottom: 25px;
+}
+.payment-title P{
+	text-align: center;
+	margin-top: 100px;
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+}
+.payment-helpline{
+	text-align: center;
+	margin-top: 10%;
+}
+.bkash{
+	display: flex;
+	margin-top: 15px;
+	margin-left: 34%;
+}
+.bkash p{
+	font-size: 22px;
+	color: #FFB60B;
+	font-weight: bold;
+}
+.bkash span{
+	font-size: 22px;
+	color: #000;
+	font-weight: bold;
+}
+.bkash-number{
+	margin-left: 34%;
+}
+.nagad{
+	display: flex;
+	margin-top: 15px;
+	margin-left: 34%;
+}
+.nagad span{
+	font-size: 22px;
+	color: #000;
+	font-weight: bold;
+}
+.nagad p{
+	font-size: 22px;
+	color: #FFB60B;
+	font-weight: bold;
+}
+.nagad-number{
+	margin-left: 34%;
+}
+.rocket{
+	display: flex;
+	margin-top: 15px;
+	margin-left: 34%;
+}
+.rocket span{
+	font-size: 22px;
+	color: #000;
+	font-weight: bold;
+}
+.rocket p{
+	font-size: 22px;
+	color: #FFB60B;
+	font-weight: bold;
+}
+.rocket-number{
+	margin-left: 10.5%;
+}
+.visa{
+	display: flex;
+	margin-top: 15px;
+	margin-left: 34%;
+}
+.visa span{
+	font-size: 22px;
+	color: #000;
+	font-weight: bold;
+}
+.visa p{
+	font-size: 22px;
+	color: #FFB60B;
+	font-weight: bold;
+}
+.visa-card-number{
+	margin-left: 38.5%;
+}
+.footer-container{
+	padding: 20px 5%;
+	background: #FFF2F2;
+	border-top: 2px solid green;
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+}
+.footer-logo img{
+	width: 70px;
+}
+.logo-text{
+	display: block;
+	text-align: center;
+}
+.logo-text .logo-texts{
+	color: #F9BB00;
+	font-weight: bold;
+	font-size: 25px;
+}
+.logo-text .text1{
+	display: inline-block;
+	margin-top: 10px;
+	color: green;
+	font-weight: 500;
+	font-size: 12px;
+}
+.footer-terms{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footer-terms p a{
+	text-decoration: none;
+	color: green;
+	font-weight: 700;
+	font-size: 15px;
+}
+.footer-powerby p{
+	color: black;
+	font-weight: bold;
+	font-size: 13px;
+}
+.footer-powerby h3{
+	color: green;
+	font-weight: bold;
+	font-size: 22px;
+	margin-top: 10px;
+}

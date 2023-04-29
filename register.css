@@ -1,0 +1,127 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: roboto, sanse-serif;
+}
+nav{
+	padding: 10px 5%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 10px 10px 15px -10px rgba(0, 0, 0, 0.17);
+}
+nav img{
+	width: 70px;
+	height: auto;
+}
+label{
+	font-size: 22px;
+	color: #F9BB00;
+	font-weight: bold;
+	margin-left: -60px;
+}
+nav ul li{
+	display: inline-block;
+	margin: 0px 10px;
+}
+
+nav ul li a{
+	color: #3f3f3f;
+	font-size: 17px;
+	text-decoration: none;
+	list-style: none;
+}
+.register-container{
+	padding: 30px 5%;
+	width: 100%;
+	height: 100vh;
+}
+.heading-title h4{
+	margin: 25px 3px;
+	font-size: 20px;
+	font-family: tahoma;
+	margin-bottom: 25px;
+}
+hr{
+	border: 1px solid green;
+}
+.register-box{
+	align-items: center;
+	justify-content: center;
+}
+.nid-verify-img img{
+	width: 150px;
+	margin: 5% 42%;
+}
+.title-text p{
+	color: #616161;
+	font-size: 22px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.verify-details p{
+	text-align: center;
+	font-size: 14px;
+	color: #616161;
+}
+.regi-input-box{
+	width: 30%;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+	margin-left: 34%;
+}
+.regi-input-box input{
+	text-align: left;
+	width: 100%;
+	padding: 10px;
+	border-radius: 3px;
+	color: #000;
+	font-weight: 500;
+	border: 1px solid #616161;
+}
+button{
+	width: 30%;
+	height: 40px;
+	background: #079d49;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: 500;
+	margin-top: 20px;
+	margin-left: 34%;
+}
+.footer-text p{
+	text-align: center;
+	font-size: 13px;
+	color: #616161;
+	margin-top: 15px;
+	margin-left: -2%;
+}
+.submit-data-btn{
+	width: 30%;
+	height: 40px;
+	background: #fff;
+	border: 1px solid green;
+	border-radius: 3px;
+	color: green;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: 500;
+	margin-top: 20px;
+	margin-left: 34%;
+	margin-bottom: 50px;
+}
+.already-reg{
+	padding-left: 41.5%;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+	color: green;
+	padding-bottom: 5%;
+}
